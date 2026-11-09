@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {ArrowUpRight, ArrowRight, MoveUpRight} from 'lucide-react';
+import {ArrowUpRight, ArrowRight} from 'lucide-react';
 import {Project} from '@/lib/data';
 export function ButtonLink({href,children,secondary=false}:{href:string;children:React.ReactNode;secondary?:boolean}){return <Link href={href} className={'button '+(secondary?'button-outline':'button-gold')}>{children}<ArrowUpRight size={17}/></Link>}
 export function Eyebrow({children}:{children:React.ReactNode}){return <span className="eyebrow">{children}</span>}

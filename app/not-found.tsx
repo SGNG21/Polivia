@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <section className="page-hero notfound"><div className="container"><span className="eyebrow">ERREUR 404</span><h1>Cette page n’existe pas.</h1><p>Retrouvez l’univers POLIVIA sur notre page d’accueil.</p><Link className="button button-gold" href="/">Retour à l’accueil ↗</Link></div></section>}
